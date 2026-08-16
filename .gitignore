@@ -1,0 +1,13 @@
+# 编辑器
+.idea/
+.vscode/
+
+# 构建产物
+target/
+dist/
+
+# 依赖
+node_modules/
+
+# 冗余的 mysql 驱动（Maven 依赖已覆盖）
+music-server/music-server/src/main/resources/mysql-connector-java-*.jar
